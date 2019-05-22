@@ -1,0 +1,225 @@
+*{
+  padding: 0;
+  margin:0;
+  list-style: none;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Arial','Arial','AcademyEngravedLetPlain',sans-serif;
+  font-family: 'Arial',sans-serif;
+}
+
+header{
+  height:80px;
+  width:100%;
+  display: table;
+}
+
+.header-logo{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-logo img{
+  height:40px;
+  width:160px;
+  float: left;
+}
+
+.header-list {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-list ul{
+  float: right;
+}
+
+.header-list li {
+  float:left;
+  padding-right: 30px;
+}
+
+
+/*header-main*/
+
+.header{
+  height:450px;
+  margin-bottom: 40px;
+}
+
+.header-img{
+  height: 450px;
+  width:60%;
+  background-image: url(img/bg-img.png);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  float:right;
+}
+
+
+
+.header-text{
+  width:40%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-top: 40px;
+  font-family: 'Baskerville','Mongolian Baiti','Bodoni 72',sans-serif;
+}
+
+.header-text h1{
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding: 70px 0 40px 0;
+}
+
+.header-text p{
+  font-size: 18px;
+}
+
+/*SERVICE*/
+
+.service{
+  width:100%;
+  height:auto;
+  background-color: #cce0ff;
+}
+
+.title{
+  text-align: center;
+  margin: 100px 0;
+}
+
+.title h1{
+  font-size: 60px;
+}
+
+/*service contents*/
+
+.service-contents{
+  text-align: center;
+}
+
+.contents{
+  display: inline-block;
+  width:250px;
+  margin: 0 15px;
+}
+
+.service-title{
+  padding:20px 0;
+}
+
+.service-title a{
+  font-size:20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.news{
+  width:100%;
+  height: auto;
+}
+
+.works{
+  text-align: center;
+}
+
+.works-contents{
+  width:auto;
+  height:auto;
+  margin:0 20px;
+  display: inline-block;
+}
+
+.works-contents p{
+  text-align: left;
+}
+
+
+.linkbox{
+  width:300px;
+  height:200px;
+  background-color: red;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.linkbox a{
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
+}
+
+.linkbox:hover{
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+
+.box1{
+  background-image: url(img/works_img.jpg);
+}
+
+.box2{
+  background-image: url(img/ec_img.jpg);
+}
+
+.box3{
+  background-image: url(img/website_img.png);
+}
+
+
+/* NEWS*/
+
+.topic{
+  width:750px;
+  height:100px;
+  margin:0 auto;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+
+.topic:hover{
+  background-color: #f2f2f2;
+  transition-duration: 0.5s;
+}
+
+.topic a{
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.read{
+  position: absolute;
+  bottom:0px;
+  right: 10px;
+}
+
+.topic-title{
+  margin-left: 6%;
+  padding-top: 10px;
+}
+
+.topic-title p{
+
+}
+
+.topic-title span{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #6495ed;
+}
+
+.topic-title h1{
+  font-size: 20px;
+  font-weight: 600;
+}
